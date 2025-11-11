@@ -6,12 +6,12 @@ Een eenvoudige app om de gewerkte uren in te vullen.
 - 
 -
 
-### 🔤 Technologiën
+## 🔤 Technologiën
 - C# /.NET
 - Maui
 - SQlite
 
-### 🛠️ Werwijze
+## 🛠️ Werwijze
 Wij maken gebruik van **GitFlow** om de repository schoon en gestructureerd te houden. Hieronder een korte uitleg van de verschillende branches en hun gebruik:
 
 ### Branches
@@ -24,7 +24,7 @@ Wij maken gebruik van **GitFlow** om de repository schoon en gestructureerd te h
 
 ![Git Flow](https://cdn.hashnode.com/res/hashnode/image/upload/v1695732166745/2099e3d3-ad17-4e8a-b851-e6d7ea20b285.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
 
-### 👥 Contributers
-### 📃 License
-### 📕 Installatie
+## 👥 Contributers
+## 📃 License
+## 📕 Installatie
 
