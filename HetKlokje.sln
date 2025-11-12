@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetKlokje.App", "HetKlokje.App\HetKlokje.App.csproj", "{52D6FC12-CAB5-4628-8806-3DD4A7C0DFCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetKlokje.Core", "HetKlokje.Core\HetKlokje.Core.csproj", "{09F2DCD5-B389-4084-9E0C-BDA93284452C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetKlokje.Core.Data", "HetKlokje.Core.Data\HetKlokje.Core.Data.csproj", "{C1EF0E2B-043E-408D-BD63-1F79A7EC3C8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D6FC12-CAB5-4628-8806-3DD4A7C0DFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D6FC12-CAB5-4628-8806-3DD4A7C0DFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D6FC12-CAB5-4628-8806-3DD4A7C0DFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D6FC12-CAB5-4628-8806-3DD4A7C0DFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F2DCD5-B389-4084-9E0C-BDA93284452C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F2DCD5-B389-4084-9E0C-BDA93284452C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F2DCD5-B389-4084-9E0C-BDA93284452C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F2DCD5-B389-4084-9E0C-BDA93284452C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1EF0E2B-043E-408D-BD63-1F79A7EC3C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EF0E2B-043E-408D-BD63-1F79A7EC3C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EF0E2B-043E-408D-BD63-1F79A7EC3C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EF0E2B-043E-408D-BD63-1F79A7EC3C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
