@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetKlokje.App", "HetKlokje.App\HetKlokje.App.csproj", "{A7196B34-01DE-42D5-8024-83BB7328844D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetKlokje.Core", "HetKlokje.Core\HetKlokje.Core.csproj", "{FBD74669-86FD-4CEE-B7BD-03E7CE4493E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetKlokje.Core.Data", "HetKlokje.Core.Data\HetKlokje.Core.Data.csproj", "{117E4130-DB6F-4DA0-BE89-7D4F3775373D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7196B34-01DE-42D5-8024-83BB7328844D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7196B34-01DE-42D5-8024-83BB7328844D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7196B34-01DE-42D5-8024-83BB7328844D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7196B34-01DE-42D5-8024-83BB7328844D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD74669-86FD-4CEE-B7BD-03E7CE4493E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD74669-86FD-4CEE-B7BD-03E7CE4493E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD74669-86FD-4CEE-B7BD-03E7CE4493E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD74669-86FD-4CEE-B7BD-03E7CE4493E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117E4130-DB6F-4DA0-BE89-7D4F3775373D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117E4130-DB6F-4DA0-BE89-7D4F3775373D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117E4130-DB6F-4DA0-BE89-7D4F3775373D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117E4130-DB6F-4DA0-BE89-7D4F3775373D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
