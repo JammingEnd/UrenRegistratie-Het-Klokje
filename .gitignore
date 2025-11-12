@@ -431,3 +431,6 @@ obj/
 *.cache  
 *.user
 *.suo   
+
+# MacOS
+.DS_Store
