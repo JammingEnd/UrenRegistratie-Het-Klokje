@@ -1,67 +1,70 @@
-PROPRIETARY LICENSE AGREEMENT
+# PROPRIETARY LICENSE AGREEMENT
 
-Copyright (c) 2025 MijnUren. All rights reserved.
+**Copyright (c) 2025 MijnUren. All rights reserved.**
 
-1. Definities
+---
 
-   "Licensor" = MijnUren.
-   
-   "Licensee" = de natuurlijke persoon of rechtspersoon die deze software onder
-   deze licentie ontvangt.
-   
-   "Software" = alle broncode, documentatie, afbeeldingen en andere bestanden
-   die in deze repository aanwezig zijn.
+## 1. Definities
 
-2. Licentieverlening
+- **Licensor**: MijnUren  
+- **Licensee**: De natuurlijke persoon of rechtspersoon die de Software ontvangt onder deze licentie.  
+- **Software**: Alle broncode, documentatie, afbeeldingen en overige bestanden die zich in deze repository bevinden.
 
-   Licensor verleent Licensee een beperkte, niet-exclusieve, niet-overdraagbare
-   en herroepbare licentie om de Software te gebruiken uitsluitend voor
-   interne bedrijfsdoeleinden zoals schriftelijk overeengekomen met Licensor.
-   Elke andere reproductie, distributie, openbaarmaking, sublicentieverlening,
-   verhuur, lease of verkoop is verboden zonder voorafgaande schriftelijke
-   toestemming van Licensor.
+---
 
-3. Beperkingen
+## 2. Licentieverlening
 
-   a) De Software mag niet worden gemodificeerd, gedecompileerd, omgekeerd
-      geconstrueerd of gedisassembleerd, behalve voor zover wettelijk toegestaan.
-   
-   b) De Software mag niet worden gebruikt om een concurrerend product of
-      dienst te bouwen.
-   
-   c) Licensee mag geen kopieën van de Software (volledig of gedeeltelijk)
-      verspreiden aan derden zonder schriftelijke toestemming van Licensor.
+Licensor verleent Licensee een **beperkte, niet-exclusieve, niet-overdraagbare en herroepbare** licentie om de Software te gebruiken **uitsluitend voor interne bedrijfsdoeleinden**, zoals schriftelijk overeengekomen met Licensor.
 
-5. Intellectuele eigendom
+Elke andere vorm van gebruik, reproductie, distributie, openbaarmaking, sublicentieverlening, verhuur, lease of verkoop van (delen van) de Software is verboden zonder voorafgaande schriftelijke toestemming van Licensor.
 
-   Alle rechten, titels en belangen met betrekking tot de Software, inclusief
-   auteursrechten, zijn en blijven eigendom van Licensor.
+---
 
-6. Vertrouwelijkheid
+## 3. Beperkingen
 
-   De Software en de bijbehorende documentatie zijn vertrouwelijk. Licensee
-   zal redelijke stappen ondernemen om de vertrouwelijkheid te waarborgen en zal
-   geen vertrouwelijke informatie openbaar maken aan derden zonder voorafgaande
-   schriftelijke toestemming van Licensor.
+a) De Software mag niet worden gewijzigd, gedecompileerd, omgekeerd geconstrueerd of gedisassembleerd, behalve voor zover wettelijk toegestaan.  
+b) De Software mag niet worden gebruikt om een concurrerend product of dienst te ontwikkelen.  
+c) Licensee mag geen kopieën van de Software (geheel of gedeeltelijk) verspreiden aan derden zonder schriftelijke toestemming van Licensor.
 
-7. Garantie en aansprakelijkheid
+---
 
-   DE SOFTWARE WORDT GELEVERD "AS IS" ZONDER ENIGE UITDRUKKELIJKE OF IMPLICIETE
-   GARANTIE. LICENSOR ZAL NIET AANSPRAKELIJK ZIJN VOOR ENIGE DIRECTE, INDIRECTE,
-   INCIDENTELE, SPECIALE OF GEVOLGSCHADE DIE VOORTVLOEIT UIT OF IN VERBAND STAAT
-   MET HET GEBRUIK VAN DE SOFTWARE.
+## 4. Intellectuele eigendom
 
-8. Beëindiging
+Alle rechten, titels en belangen met betrekking tot de Software, inclusief auteursrechten en andere intellectuele eigendomsrechten, **blijven eigendom van Licensor**.
 
-   Deze licentie eindigt automatisch indien Licensee enige bepaling van deze
-   overeenkomst schendt. Bij beëindiging zal Licensee alle kopieën van de
-   Software vernietigen of teruggeven aan Licensor.
+---
 
-9. Toepasselijk recht en forumkeuze
+## 5. Vertrouwelijkheid
 
-   Op deze licentie is Nederlands recht van toepassing. Geschillen zullen
-   exclusief worden voorgelegd aan de bevoegde rechtbank in Nederland.
+De Software en bijbehorende documentatie zijn **vertrouwelijk**.  
+Licensee zal redelijke maatregelen nemen om deze vertrouwelijkheid te waarborgen en zal geen vertrouwelijke informatie openbaar maken aan derden zonder voorafgaande schriftelijke toestemming van Licensor.
 
-10. Contact
-   Voor licentievragen of toestemming tot gebruik kunt u contact opnemen met:
-   MijnUren — MijnUren@gov.mail.com
+---
+
+## 6. Garantie en aansprakelijkheid
+
+DE SOFTWARE WORDT GELEVERD “AS IS”, ZONDER ENIGE EXPLICIETE OF IMPLICIETE GARANTIE.  
+LICENSOR IS IN GEEN GEVAL AANSPRAKELIJK VOOR ENIGE DIRECTE, INDIRECTE, INCIDENTELE, SPECIALE OF GEVOLGSCHADE DIE VOORTVLOEIT UIT HET GEBRUIK VAN DE SOFTWARE.
+
+---
+
+## 7. Beëindiging
+
+Deze licentie wordt automatisch beëindigd indien Licensee enige bepaling van deze overeenkomst schendt.  
+Na beëindiging dient Licensee alle kopieën van de Software te **vernietigen of terug te geven** aan Licensor.
+
+---
+
+## 8. Toepasselijk recht en forumkeuze
+
+Op deze licentie is **Nederlands recht** van toepassing.  
+Geschillen voortvloeiend uit of verband houdend met deze overeenkomst zullen exclusief worden voorgelegd aan de bevoegde rechtbank in **Nederland**.
+
+---
+
+## 9. Contact
+
+Voor vragen over deze licentie of voor toestemming tot gebruik kunt u contact opnemen met:
+
+**MijnUren**  
+📧 MijnUren@gov.mail.com
