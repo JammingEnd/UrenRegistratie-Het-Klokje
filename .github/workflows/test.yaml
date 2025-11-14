@@ -1,0 +1,17 @@
+name: Test Workflow
+
+on: 
+  push:
+    branches: 
+      - main
+      - develop
+      - feature/**
+      - release/**
+  workflow_dispatch: 
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello, World! 🎉"
