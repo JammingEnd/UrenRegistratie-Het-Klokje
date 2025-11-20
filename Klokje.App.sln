@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11205.157 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klokje.App", "Klokje.App\Klokje.App.csproj", "{517E0324-8B92-4875-862F-7C1226E66790}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klokje.Core", "Klokje.Core\Klokje.Core.csproj", "{649B9761-7763-497D-A1D8-52FD46B7F640}"
@@ -14,6 +17,7 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{517E0324-8B92-4875-862F-7C1226E66790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{517E0324-8B92-4875-862F-7C1226E66790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517E0324-8B92-4875-862F-7C1226E66790}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{517E0324-8B92-4875-862F-7C1226E66790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{517E0324-8B92-4875-862F-7C1226E66790}.Release|Any CPU.Build.0 = Release|Any CPU
 		{649B9761-7763-497D-A1D8-52FD46B7F640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +28,8 @@ Global
 		{2B9AE43A-86C4-4897-9ADD-DEFD7E499FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B9AE43A-86C4-4897-9ADD-DEFD7E499FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B9AE43A-86C4-4897-9ADD-DEFD7E499FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
