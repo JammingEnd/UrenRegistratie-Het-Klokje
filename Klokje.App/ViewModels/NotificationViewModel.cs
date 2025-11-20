@@ -5,7 +5,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace Klokje.App.ViewModels
 {
-    public partial class LoginViewModel : BaseViewModel
+    public partial class NotificationViewModel : BaseViewModel
     {
         [ObservableProperty]
         string title = "";

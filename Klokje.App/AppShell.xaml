@@ -9,17 +9,23 @@
     Title="Klokje">
 
     <TabBar>
-        <Tab Title="Test" Icon="dotnet_bot.png">
-            <ShellContent Title="TestPage" ContentTemplate="{DataTemplate pages:TestView}"/>
+        <Tab Icon="dotnet_bot.png">
+            <ShellContent Title="HomePage" ContentTemplate="{DataTemplate pages:TestView}"/>
         </Tab>
-        <Tab Title="Login" Icon="dotnet_bot.png">
-            <ShellContent Title="LoginPage" ContentTemplate="{DataTemplate pages:LoginView}"/>
+        <Tab Title="WeekOverview" Icon="dotnet_bot.png">
+            <ShellContent Title="WeekOverview" ContentTemplate="{DataTemplate pages:WeekOverviewView}"/>
         </Tab>
-        <Tab Title="Login" Icon="dotnet_bot.png">
-            <ShellContent Title="LoginPage2" ContentTemplate="{DataTemplate pages:LoginView}"/>
+        <Tab Title="ProjectsOverview" Icon="dotnet_bot.png">
+            <ShellContent Title="ProjectsOverview" ContentTemplate="{DataTemplate pages:ProjectsOverviewView}"/>
         </Tab>
-        <Tab Title="Login" Icon="dotnet_bot.png">
-            <ShellContent Title="LoginPage3" ContentTemplate="{DataTemplate pages:LoginView}"/>
+        <Tab Title="Statistics" Icon="dotnet_bot.png">
+            <ShellContent Title="Statistics" ContentTemplate="{DataTemplate pages:TestView}"/>
+        </Tab>
+        <Tab Title="Notifications" Icon="dotnet_bot.png">
+            <ShellContent Title="Notifications" ContentTemplate="{DataTemplate pages:NotificationView}"/>
+        </Tab>
+        <Tab Title="Account" Icon="dotnet_bot.png">
+            <ShellContent Title="Account" ContentTemplate="{DataTemplate pages:TestView}"/>
         </Tab>
     </TabBar>
 </Shell>
