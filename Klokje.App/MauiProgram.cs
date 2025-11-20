@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using Klokje.App.Views;
+using Klokje.App.ViewModels;
 
 namespace Klokje.App;
 
@@ -18,6 +20,8 @@ public static class MauiProgram
 #if DEBUG
         builder.Logging.AddDebug();
 #endif
+
+        builder.Services.AddTransient<TestView>().AddTransient<TestViewModel>();
 
         return builder.Build();
     }
