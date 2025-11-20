@@ -1,0 +1,8 @@
+﻿<maui:MauiWinUIApplication
+    x:Class="Klokje.App.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:maui="using:Microsoft.Maui"
+    xmlns:local="using:Klokje.App.WinUI">
+
+</maui:MauiWinUIApplication>
