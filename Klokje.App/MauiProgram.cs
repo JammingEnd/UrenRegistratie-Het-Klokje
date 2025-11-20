@@ -22,6 +22,7 @@ public static class MauiProgram
 #endif
 
         builder.Services.AddTransient<TestView>().AddTransient<TestViewModel>();
+        builder.Services.AddTransient<LoginView>().AddTransient<LoginViewModel>();
 
         return builder.Build();
     }

@@ -5,13 +5,21 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Klokje.App"
     xmlns:pages="clr-namespace:Klokje.App.Views"
-    Title="Klokje.App">
+    Shell.NavBarIsVisible="False"
+    Title="Klokje">
 
     <TabBar>
         <Tab Title="Test" Icon="dotnet_bot.png">
-            <ShellContent Title="Testpage" ContentTemplate="{DataTemplate pages:TestView}"/>
-            <ShellContent Title="TEST2"/>
+            <ShellContent Title="TestPage" ContentTemplate="{DataTemplate pages:TestView}"/>
+        </Tab>
+        <Tab Title="Login" Icon="dotnet_bot.png">
+            <ShellContent Title="LoginPage" ContentTemplate="{DataTemplate pages:LoginView}"/>
+        </Tab>
+        <Tab Title="Login" Icon="dotnet_bot.png">
+            <ShellContent Title="LoginPage2" ContentTemplate="{DataTemplate pages:LoginView}"/>
+        </Tab>
+        <Tab Title="Login" Icon="dotnet_bot.png">
+            <ShellContent Title="LoginPage3" ContentTemplate="{DataTemplate pages:LoginView}"/>
         </Tab>
     </TabBar>
-
 </Shell>
