@@ -26,6 +26,8 @@ public static class MauiProgram
         builder.Services.AddTransient<WeekOverviewView>().AddTransient<WeekOverviewViewModel>();
         builder.Services.AddTransient<ProjectsOverviewView>().AddTransient<ProjectsOverviewViewModel>();
         builder.Services.AddTransient<NotificationView>().AddTransient<NotificationViewModel>();
+        builder.Services.AddTransient<NavigationView>().AddTransient<NavigationViewModel>();
+
 
         return builder.Build();
     }

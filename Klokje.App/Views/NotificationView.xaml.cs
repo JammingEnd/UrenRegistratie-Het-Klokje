@@ -6,22 +6,4 @@ public partial class NotificationView : ContentPage
 	{
 		InitializeComponent();
 	}
-
-    private void OnWeekOverviewClicked(object sender, EventArgs e)
-    {
-        Application.Current.MainPage = new WeekOverviewView();
-    }
-
-    private void OnProjectOverviewClicked(object sender, EventArgs e)
-    {
-        Application.Current.MainPage = new ProjectsOverviewView();
-    }
-    private void OnNotificationClicked(object sender, EventArgs e)
-    {
-        Application.Current.MainPage = new NotificationView();
-    }
-    private void OnAccountClicked(object sender, EventArgs e)
-    {
-        Application.Current.MainPage = new TestView();
-    }
 }
