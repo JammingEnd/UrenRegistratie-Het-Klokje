@@ -1,4 +1,7 @@
-﻿namespace Klokje.App;
+﻿using Klokje.App;
+using Klokje.App.ViewModels;
+
+namespace Klokje.App;
 
 public partial class AppShell : Shell
 {

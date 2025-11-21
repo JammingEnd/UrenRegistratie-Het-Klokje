@@ -24,8 +24,5 @@
         <Tab Title="Notifications" Icon="dotnet_bot.png">
             <ShellContent Title="Notifications" ContentTemplate="{DataTemplate pages:NotificationView}"/>
         </Tab>
-        <Tab Title="Account" Icon="dotnet_bot.png">
-            <ShellContent Title="Account" ContentTemplate="{DataTemplate pages:TestView}"/>
-        </Tab>
     </TabBar>
 </Shell>
