@@ -1,7 +1,8 @@
-﻿using System;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using Klokje.App.Views;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace Klokje.App.ViewModels
 {
@@ -22,5 +23,6 @@ namespace Klokje.App.ViewModels
         {
 
         }
+
     }
 }

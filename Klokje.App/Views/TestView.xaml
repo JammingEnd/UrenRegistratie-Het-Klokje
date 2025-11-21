@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:Klokje.App.Views"
              x:Class="Klokje.App.Views.TestView"
+             NavigationPage.HasBackButton="False"
+             
              Title="TestView">
+
     <VerticalStackLayout>
+        <Grid RowDefinitions="Auto,*" BackgroundColor="#007FFF" Shadow="0 0 2 Black 1">
+            <!-- Header row -->
+            <Grid Grid.Row="0" Margin="4 40 4 40">
+                <Label Text="Klokje" HorizontalOptions="Start" Margin="8"/>
+                <HorizontalStackLayout HorizontalOptions="Start" Margin="0 0 0 128">
+                    <ImageButton BackgroundColor="White" Source="uren.png"          WidthRequest="32" HeightRequest="32" Margin="8" Padding="4" CornerRadius="4" Clicked="OnWeekOverviewClicked"    ToolTipProperties.Text="Uren schrijven" Shadow="0 0 6 Black"/>
+                    <ImageButton BackgroundColor="White" Source="projecten.png"     WidthRequest="32" HeightRequest="32" Margin="8" Padding="4" CornerRadius="4" Clicked="OnProjectOverviewClicked" ToolTipProperties.Text="Projecten"      Shadow="0 0 6 Black"/>
+                    <ImageButton BackgroundColor="White" Source="instellingen.png"  WidthRequest="32" HeightRequest="32" Margin="8" Padding="4" CornerRadius="4" Clicked="OnNotificationClicked"    ToolTipProperties.Text="Instellingen"   Shadow="0 0 6 Black"/>
+                </HorizontalStackLayout>
+                <ImageButton BackgroundColor="White" Source="account.png" WidthRequest="32" HeightRequest="32" HorizontalOptions="End" Margin="8" Padding="4" CornerRadius="4" Clicked="OnAccountClicked" ToolTipProperties.Text="Account" Shadow="0 0 6 Black 1"/>
+            </Grid>
+        </Grid>
+        
+        <!-- Page content -->
         <Label 
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+       
     </VerticalStackLayout>
 </ContentPage>
