@@ -34,5 +34,6 @@ namespace HetKlokje.Core.Models
     {
         Read,
         Unread,
+        Deleted,
     }
 }
