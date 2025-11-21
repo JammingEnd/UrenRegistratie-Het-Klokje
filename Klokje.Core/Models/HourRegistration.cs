@@ -12,20 +12,22 @@ namespace HetKlokje.Core.Models
         public DateTime Date { get; set; }
         public double Hours { get; set; }
         public string Description { get; set; }
+        public string Comment { get; set; }
         public RegistryStatus Status { get; set; }
 
         // Constructor without id for creating new hour registrations
-        public HourRegistration(Client registeredBy, Project project, DateTime date, double hours, string description, RegistryStatus status)
+        public HourRegistration(Client registeredBy, Project project, DateTime date, double hours, string description, string comment, RegistryStatus status)
         {
             RegisteredBy = registeredBy;
             Project = project;
             Date = date;
             Hours = hours;
             Description = description;
+            Comment = comment;
             Status = status;
         }
         // Constructor with id for existing hour registrations from the database
-        public HourRegistration(uint id, Client registeredBy, Project project, DateTime date, double hours, string description, int status)
+        public HourRegistration(uint id, Client registeredBy, Project project, DateTime date, double hours, string description, string comment, int status)
         {
             Id = id;
             RegisteredBy = registeredBy;
@@ -33,6 +35,7 @@ namespace HetKlokje.Core.Models
             Date = date;
             Hours = hours;
             Description = description;
+            Comment = comment;
             Status = (RegistryStatus)status;
         }
     }
