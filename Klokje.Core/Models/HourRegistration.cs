@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HetKlokje.Core.Models
+namespace Klokje.Core.Models
 {
     public class HourRegistration
     {
