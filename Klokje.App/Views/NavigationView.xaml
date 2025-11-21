@@ -6,11 +6,14 @@
              Shadow="0 0 2 Black 1">
     <Grid RowDefinitions="Auto,*">
         <Grid Grid.Row="0" Margin="4 40 4 40">
-            <Label Text="Klokje" HorizontalOptions="Start" Margin="8"/>
+            <Image Source="logo.png" WidthRequest="64" HeightRequest="64" HorizontalOptions="Start" Margin="8"/>
             <HorizontalStackLayout HorizontalOptions="Start" Margin="0 0 0 128">
-                <Button BackgroundColor="White" ImageSource="uren.png" WidthRequest="32" HeightRequest="32" Margin="8" Padding="4" CornerRadius="4" Clicked="OnWeekOverviewClicked" ToolTipProperties.Text="Uren schrijven" Shadow="0 0 6 Black 1" IsVisible="{Binding WeekOverviewIsVisible}"/>
+                <Button BackgroundColor="White" ImageSource="uren.png" WidthRequest="32" HeightRequest="32" Margin="8" Padding="4" CornerRadius="4" Clicked="OnWeekOverviewClicked"         ToolTipProperties.Text="Uren schrijven" Shadow="0 0 6 Black 1" IsVisible="{Binding WeekOverviewIsVisible}"/>
                 <Button BackgroundColor="White" ImageSource="projecten.png" WidthRequest="32" HeightRequest="32" Margin="8" Padding="4" CornerRadius="4" Clicked="OnProjectOverviewClicked" ToolTipProperties.Text="Projecten" Shadow="0 0 6 Black 1" IsVisible="{Binding ProjectOverviewIsVisible}"/>
-                <Button BackgroundColor="White" ImageSource="instellingen.png" WidthRequest="32" HeightRequest="32" Margin="8" Padding="4" CornerRadius="4" Clicked="OnNotificationClicked" ToolTipProperties.Text="Instellingen" Shadow="0 0 6 Black 1"/>
+                <Button BackgroundColor="White" ImageSource="statistieken.png" WidthRequest="32" HeightRequest="32" Margin="8" Padding="4" CornerRadius="4" Clicked="OnStatisticsClicked"   ToolTipProperties.Text="Statestieken" Shadow="0 0 6 Black 1" IsVisible="{Binding StatisticsIsVisible}"/>
+                <Button BackgroundColor="White" ImageSource="facturen.png" WidthRequest="32" HeightRequest="32" Margin="8" Padding="4" CornerRadius="4" Clicked="OnInvoiceOverviewClicked"  ToolTipProperties.Text="Facturen" Shadow="0 0 6 Black 1" IsVisible="{Binding InvoiceOverviewIsVisible}"/>
+                <Button BackgroundColor="White" ImageSource="meldingen.png" WidthRequest="32" HeightRequest="32" Margin="8" Padding="4" CornerRadius="4" Clicked="OnNotificationClicked" ToolTipProperties.Text="Instellingen" Shadow="0 0 6 Black 1"/>
+                <Button BackgroundColor="White" ImageSource="instellingen.png" WidthRequest="32" HeightRequest="32" Margin="8" Padding="4" CornerRadius="4" Clicked="OnSettingsClicked"     ToolTipProperties.Text="Instellingen" Shadow="0 0 6 Black 1"/>
             </HorizontalStackLayout>
             <Button BackgroundColor="White" ImageSource="account.png" WidthRequest="32" HeightRequest="32" HorizontalOptions="End" Margin="8" Padding="4" CornerRadius="4" Clicked="OnAccountClicked" ToolTipProperties.Text="Account" Shadow="0 0 6 Black 1"/>
         </Grid>

@@ -5,7 +5,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace Klokje.App.ViewModels
 {
-    public partial class NavigationViewModel : BaseViewModel
+    public partial class InvoiceOverviewViewModel : BaseViewModel
     {
         [ObservableProperty]
         string title = "";
@@ -22,10 +22,5 @@ namespace Klokje.App.ViewModels
         {
 
         }
-
-        public bool WeekOverviewIsVisible { get; set; } = true;
-        public bool ProjectOverviewIsVisible { get; set; } = true;
-        public bool StatisticsIsVisible { get; set; } = true;
-        public bool InvoiceOverviewIsVisible { get; set; } = true;
     }
 }

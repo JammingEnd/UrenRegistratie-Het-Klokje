@@ -23,6 +23,18 @@ public partial class NavigationView : ContentView
     {
         Application.Current.MainPage = new NotificationView();
     }
+    private void OnStatisticsClicked(object sender, EventArgs e)
+    {
+        Application.Current.MainPage = new TestView();
+    }
+    private void OnInvoiceOverviewClicked(object sender, EventArgs e)
+    {
+        Application.Current.MainPage = new InvoiceOverviewView();
+    }
+    private void OnSettingsClicked(object sender, EventArgs e)
+    {
+        Application.Current.MainPage = new TestView();
+    }
     private void OnAccountClicked(object sender, EventArgs e)
     {
         Application.Current.MainPage = new TestView();

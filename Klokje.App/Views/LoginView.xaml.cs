@@ -12,6 +12,6 @@ public partial class LoginView : ContentPage
 
 	private void OnLoginClicked(object sender, EventArgs ev)
 	{
-        Application.Current.MainPage = new TestView();
+        Application.Current.MainPage = new WeekOverviewView();
     }
 }
