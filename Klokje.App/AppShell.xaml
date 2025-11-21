@@ -4,11 +4,25 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Klokje.App"
-    Title="Klokje.App">
+    xmlns:pages="clr-namespace:Klokje.App.Views"
+    Shell.NavBarIsVisible="False"
+    Title="Klokje">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    <TabBar>
+        <Tab Icon="dotnet_bot.png">
+            <ShellContent Title="HomePage" ContentTemplate="{DataTemplate pages:TestView}"/>
+        </Tab>
+        <Tab Title="WeekOverview" Icon="dotnet_bot.png">
+            <ShellContent Title="WeekOverview" ContentTemplate="{DataTemplate pages:WeekOverviewView}"/>
+        </Tab>
+        <Tab Title="ProjectsOverview" Icon="dotnet_bot.png">
+            <ShellContent Title="ProjectsOverview" ContentTemplate="{DataTemplate pages:ProjectsOverviewView}"/>
+        </Tab>
+        <Tab Title="Statistics" Icon="dotnet_bot.png">
+            <ShellContent Title="Statistics" ContentTemplate="{DataTemplate pages:TestView}"/>
+        </Tab>
+        <Tab Title="Notifications" Icon="dotnet_bot.png">
+            <ShellContent Title="Notifications" ContentTemplate="{DataTemplate pages:NotificationView}"/>
+        </Tab>
+    </TabBar>
 </Shell>
