@@ -8,13 +8,8 @@ namespace HetKlokje.Core.Models
     {
         public readonly uint Id;
         public string ProjectName { get; set; }
-
-        public Client ProjectLead { get; set; }
-
         public List<Client> TeamMembers { get; set; }
-
         public ProjectStatus Status { get; set; }
-
         public string BusinessName { get; set; }
         public int AssignedHours { get; set; }
         public int ThresholdHours { get; set; }
@@ -23,10 +18,9 @@ namespace HetKlokje.Core.Models
         public RegistryType RegistryType { get; set; }
 
         // Constructor without id for creating new projects
-        public Project(string projectName, Client projectLead, List<Client> teamMembers, ProjectStatus status, string businessName, int assignedHours, int thresholdHours, double tariff, RegistryType registryType)
+        public Project(string projectName, List<Client> teamMembers, ProjectStatus status, string businessName, int assignedHours, int thresholdHours, double tariff, RegistryType registryType)
         {
             ProjectName = projectName;
-            ProjectLead = projectLead;
             TeamMembers = teamMembers;
             Status = status; // Cast int to ProjectStatus enum cause the int is saved in the database
             BusinessName = businessName;
@@ -37,11 +31,10 @@ namespace HetKlokje.Core.Models
         }
 
         // Constructor with id for existing projects from the database
-        public Project(uint id, string projectName, Client projectLead, List<Client> teamMembers, int status, string businessName, int assignedHours, int thresholdHours, double tariff, int registryType)
+        public Project(uint id, string projectName, List<Client> teamMembers, int status, string businessName, int assignedHours, int thresholdHours, double tariff, int registryType)
         {
             Id = id;
             ProjectName = projectName;
-            ProjectLead = projectLead;
             TeamMembers = teamMembers;
             Status = (ProjectStatus)status; // Cast int to ProjectStatus enum cause the int is saved in the database
             BusinessName = businessName;

@@ -7,23 +7,26 @@ namespace HetKlokje.Core.Models
     public class Notification
     {
         public readonly uint Id;
-        public Client Recipient { get; set; }
+        public HourRegistration? HourSubject { get; set; } = null;
+        public Project? ProjectSubject { get; set; } = null;
         public string Title { get; set; }
         public string Message { get; set; }
         public NotificationStatus Status { get; set; }
         // Constructor without id for creating new notifications
-        public Notification(Client recipient, string message, string title, NotificationStatus status)
+        public Notification(HourRegistration hourSubject, Project projectSubject, string message, string title, NotificationStatus status)
         {
-            Recipient = recipient;
+            HourSubject = hourSubject;
+            ProjectSubject = projectSubject;
             Message = message;
             Status = status;
             Title = title;
         }
         // Constructor with id for existing notifications from the database
-        public Notification(uint id, Client recipient, string message, string title, int status)
+        public Notification(uint id, HourRegistration hourSubject, Project projectSubject, string message, string title, int status)
         {
             Id = id;
-            Recipient = recipient;
+            HourSubject = hourSubject;
+            ProjectSubject = projectSubject;
             Message = message;
             Status = (NotificationStatus)status;
             Title = title;
