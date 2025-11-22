@@ -16,6 +16,7 @@ namespace Klokje.App.ViewModels
         public bool StatisticsIsVisible { get; set; }
         public bool InvoiceOverviewIsVisible { get; set; }
 
+        public bool SettingsIsVisible { get; set; }
         public NavigationViewModel(GlobalViewModel global)
         {
             SetButtonVisibility(global);
@@ -39,8 +40,9 @@ namespace Klokje.App.ViewModels
                 case ClientRole.Employee:
                     WeekOverviewIsVisible = true;
                     ProjectOverviewIsVisible = false;
-                    StatisticsIsVisible = false;
+                    StatisticsIsVisible = true;
                     InvoiceOverviewIsVisible = false;
+                    SettingsIsVisible = false;
                     break;
 
                 case ClientRole.ProjectLead:
@@ -48,6 +50,7 @@ namespace Klokje.App.ViewModels
                     ProjectOverviewIsVisible = true;
                     StatisticsIsVisible = true;
                     InvoiceOverviewIsVisible = false;
+                    SettingsIsVisible = false;
                     break;
 
                 case ClientRole.Admin:
@@ -55,6 +58,7 @@ namespace Klokje.App.ViewModels
                     ProjectOverviewIsVisible = true;
                     StatisticsIsVisible = true;
                     InvoiceOverviewIsVisible = true;
+                    SettingsIsVisible = true;
                     break;
 
                 default:
@@ -62,6 +66,7 @@ namespace Klokje.App.ViewModels
                     ProjectOverviewIsVisible = false;
                     StatisticsIsVisible = false;
                     InvoiceOverviewIsVisible = false;
+                    SettingsIsVisible = false;
                     break;
             }
         }
