@@ -8,12 +8,15 @@
 
     <ItemGroup>
       <Folder Include="Helpers\" />
-      <Folder Include="Repositories\" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="CommunityToolkit.Maui.Core" Version="13.0.0" />
       <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
     </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Klokje.Core\Klokje.Core.csproj" />
+  </ItemGroup>
 
 </Project>

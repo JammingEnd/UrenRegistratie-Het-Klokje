@@ -1,20 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Klokje.App.ViewModels"
              x:Class="Klokje.App.Views.LoginView"
-             xmlns:pages="clr-namespace:Klokje.App.Views"
+             x:DataType="vm:LoginViewModel"
              Title="LoginView">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to Login!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-
-        <Button
-            Text="Login with OAuth"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"
-            Clicked="OnLoginClicked" />
-        
-    </VerticalStackLayout>
+    <StackLayout Padding="20" VerticalOptions="Center">
+        <Border StrokeThickness="0"
+                StrokeShape="RoundRectangle 15"
+                HeightRequest="120"
+                WidthRequest="120"
+                HorizontalOptions="Center"
+                Margin="0,0,0,20">
+            <Image Source="logo_mijn_uren.png" 
+                   Aspect="AspectFill" />
+        </Border>
+        <Label Text="Emailadres:" FontSize="14" HorizontalOptions="Center" />
+        <Entry Placeholder="Email" 
+               Text="{Binding Email}" 
+               Keyboard="Email"
+               WidthRequest="400"
+               HorizontalOptions="Center"
+               BackgroundColor="AliceBlue"/>
+        <Label Text="Wachtwoord:" FontSize="14" HorizontalOptions="Center" />
+        <Entry Placeholder="Password" 
+               Text="{Binding Password}" 
+               IsPassword="True"
+               WidthRequest="400"
+               HorizontalOptions="Center" 
+               BackgroundColor="AliceBlue"/>
+        <Label Text="" FontSize="14" HorizontalOptions="Center" />
+        <Button Text="Login"
+                Command="{Binding LoginCommand}"
+                WidthRequest="120"
+                HorizontalOptions="Center" 
+                BackgroundColor="MidnightBlue"
+                CornerRadius="20"/>
+        <Label Text="{Binding LoginMessage}" TextColor="Red" />
+    </StackLayout>
 </ContentPage>

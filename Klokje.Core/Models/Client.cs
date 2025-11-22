@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HetKlokje.Core.Models
+namespace Klokje.Core.Models
 {
     public class Client
     {
@@ -55,7 +55,6 @@ namespace HetKlokje.Core.Models
     {
         User,
         ProjectLead,
-        Admin,
-        Owner,
+        Admin
     }
 }
