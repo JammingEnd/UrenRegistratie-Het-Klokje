@@ -53,7 +53,7 @@ namespace Klokje.Core.Models
 
     public enum ClientRole
     {
-        User,
+        Employee,
         ProjectLead,
         Admin
     }

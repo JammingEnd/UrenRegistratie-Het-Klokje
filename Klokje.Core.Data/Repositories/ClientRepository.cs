@@ -12,9 +12,9 @@ namespace Klokje.Core.Data.Repositories
         {
             clientList = new List<Client>
             {
-                new Client(1, "Mark", "de", "Groot", new DateTime(1990, 1, 15), "user1@mail.com", "IunRhDKa+fWo8+4/Qfj7Pg==.kDxZnUQHCZun6gLIE6d9oeULLRIuRmxmH2QKJv2IM08=", 0, 40, 80),
-                new Client(2, "H.H.", "", "Hermans", new DateTime(1985, 5, 20), "user2@mail.com", "dOk+X+wt+MA9uIniRGKDFg==.QLvy72hdG8nWj1FyL75KoKeu4DUgu5B/HAHqTD2UFLU=", 1, 40, 85),
-                new Client(3, "A.J.", "", "Kwak", new DateTime(1980, 3, 10), "user3@mail.com", "sxnIcZdYt8wC8MYWcQVQjQ==.FKd5Z/jwxPv3a63lX+uvQ0+P7EuNYZybvkmdhbnkIHA=", 2, 40, 90)
+                new Client(1, "Mark", "de", "Groot", new DateTime(1990, 1, 15), "employee@mail.com", "IunRhDKa+fWo8+4/Qfj7Pg==.kDxZnUQHCZun6gLIE6d9oeULLRIuRmxmH2QKJv2IM08=", 0, 40, 80),
+                new Client(2, "H.H.", "", "Hermans", new DateTime(1985, 5, 20), "projectlead@mail.com", "dOk+X+wt+MA9uIniRGKDFg==.QLvy72hdG8nWj1FyL75KoKeu4DUgu5B/HAHqTD2UFLU=", 1, 40, 85),
+                new Client(3, "A.J.", "", "Kwak", new DateTime(1980, 3, 10), "admin@mail.com", "sxnIcZdYt8wC8MYWcQVQjQ==.FKd5Z/jwxPv3a63lX+uvQ0+P7EuNYZybvkmdhbnkIHA=", 2, 40, 90)
             };
         }
 
