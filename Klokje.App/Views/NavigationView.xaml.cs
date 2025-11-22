@@ -4,11 +4,15 @@ namespace Klokje.App.Views;
 
 public partial class NavigationView : ContentView
 {
-	public NavigationView()
-	{
-		InitializeComponent();
-		BindingContext = new NavigationViewModel();
-	}
+    public NavigationView() : this(App.Services.GetService<GlobalViewModel>())
+    {
+    }
+
+    public NavigationView(GlobalViewModel global)
+    {
+        InitializeComponent();
+        BindingContext = new NavigationViewModel(global);
+    }
 
     private void OnWeekOverviewClicked(object sender, EventArgs e)
     {
@@ -40,3 +44,4 @@ public partial class NavigationView : ContentView
         Application.Current.MainPage = new TestView();
     }
 }
+
