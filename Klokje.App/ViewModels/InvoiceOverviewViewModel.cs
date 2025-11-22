@@ -1,12 +1,11 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
-using Klokje.App.Views;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace Klokje.App.ViewModels
 {
-    public partial class TestViewModel : BaseViewModel
+    public partial class InvoiceOverviewViewModel : BaseViewModel
     {
         [ObservableProperty]
         string title = "";
@@ -23,6 +22,5 @@ namespace Klokje.App.ViewModels
         {
 
         }
-
     }
 }

@@ -8,6 +8,10 @@
     Shell.NavBarIsVisible="False"
     Title="Klokje">
 
+
+    <ShellContent Title="HomePage" ContentTemplate="{DataTemplate pages:TestView}"/>
+    
+    <!--
     <TabBar>
         <Tab Icon="dotnet_bot.png">
             <ShellContent Title="HomePage" ContentTemplate="{DataTemplate pages:TestView}"/>
@@ -25,4 +29,6 @@
             <ShellContent Title="Notifications" ContentTemplate="{DataTemplate pages:NotificationView}"/>
         </Tab>
     </TabBar>
+    -->
+
 </Shell>

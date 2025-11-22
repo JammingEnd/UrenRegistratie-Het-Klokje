@@ -2,13 +2,13 @@ using Klokje.App.ViewModels;
 
 namespace Klokje.App.Views;
 
-public partial class WeekOverviewView : ContentPage
+public partial class NavigationView : ContentView
 {
-	public WeekOverviewView()
+	public NavigationView()
 	{
 		InitializeComponent();
-        BindingContext = new WeekOverviewViewModel();
-    }
+		BindingContext = new NavigationViewModel();
+	}
 
     private void OnWeekOverviewClicked(object sender, EventArgs e)
     {
@@ -22,6 +22,18 @@ public partial class WeekOverviewView : ContentPage
     private void OnNotificationClicked(object sender, EventArgs e)
     {
         Application.Current.MainPage = new NotificationView();
+    }
+    private void OnStatisticsClicked(object sender, EventArgs e)
+    {
+        Application.Current.MainPage = new TestView();
+    }
+    private void OnInvoiceOverviewClicked(object sender, EventArgs e)
+    {
+        Application.Current.MainPage = new InvoiceOverviewView();
+    }
+    private void OnSettingsClicked(object sender, EventArgs e)
+    {
+        Application.Current.MainPage = new TestView();
     }
     private void OnAccountClicked(object sender, EventArgs e)
     {
