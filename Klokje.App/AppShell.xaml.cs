@@ -1,33 +1,22 @@
 ﻿using Klokje.App;
 using Klokje.App.ViewModels;
+using Klokje.App.Views;
 
 namespace Klokje.App;
 
 public partial class AppShell : Shell
 {
-    public bool IsWeekOverviewVisible { get; set; } = true;
-    public bool IsProjectsOverviewVisible { get; set; } = true;
-
     public AppShell()
     {
         InitializeComponent();
 
-        var tabBar = this.Items.OfType<TabBar>().FirstOrDefault();
-        if (tabBar != null)
-        {
-            if (!IsWeekOverviewVisible)
-            {
-                var weekTab = tabBar.Items.FirstOrDefault(item => item.Title == "WeekOverview");
-                if (weekTab != null)
-                    tabBar.Items.Remove(weekTab);
-            }
+        Routing.RegisterRoute(nameof(LoginView), typeof(LoginView));
+        Routing.RegisterRoute(nameof(NotificationView), typeof(NotificationView));
+        Routing.RegisterRoute(nameof(ProjectsOverviewView), typeof(ProjectsOverviewView));
+        Routing.RegisterRoute(nameof(WeekOverviewView), typeof(WeekOverviewView));
+        Routing.RegisterRoute(nameof(TestView), typeof(TestView));
+        Routing.RegisterRoute(nameof(NavigationView), typeof(NavigationView));
+        Routing.RegisterRoute(nameof(InvoiceOverviewView), typeof(InvoiceOverviewView));
 
-            if (!IsProjectsOverviewVisible)
-            {
-                var projectsTab = tabBar.Items.FirstOrDefault(item => item.Title == "ProjectsOverview");
-                if (projectsTab != null)
-                    tabBar.Items.Remove(projectsTab);
-            }
-        }
     }
 }
